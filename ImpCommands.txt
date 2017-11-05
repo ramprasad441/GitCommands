@@ -1,0 +1,72 @@
+git help config ==> command for help
+
+git init ==> for 
+
+
+ls -la ==> for tracking the project
+
+rm -rf  .git==> to remove/stop tracking the project
+
+git status ==> before making a commit to check the status of the 
+
+git add -A ==> to add all untacked/ uncommitesd/ changed files
+
+
+git reset ==> to remove the files in the staging area/ Kind of Uncommit
+
+git clone ==> to clone the remote project
+
+git log ==> for knowing the Hash number of the commit made, and also let's 
+us know who commited the commit and the commit message
+
+======
+
+Viewing information about the remote repository
+ 
+git remote -v ==> Location of the branch
+
+git branch -a ==>  shows all the branches in the repository
+
+git diff ==> Shows the Differences
+
+
+==
+
+Create/Name a branch 
+
+git branch name of the branch
+
+git checkout Branch name ==> to switch to any particular branch
+
+git push origin branch name ==> to push the changes to particular branch
+
+git branch -a ===> shows the branches
+
+===
+
+git checkout branch name ==> to switch to a particular branch
+
+git branch -d branch name ==> to delete the branch
+
+git push origin --delete branch name ==> to delete 
+the branch in the remote repository(i.e., pushed branch)
+
+================
+
+touch .gitignore ==> to add git ignore file in the project
+
+
+
+
+=====
+
+
+git reset "filename with the file format(Examaple: MyFile.txt  or MyFile.java)"==> to remove 
+the file frmo the staging area
+
+git reset ==>remove everything form the staging area.
+
+
+git add -A ==> To add all eveerything to the staging area
+
+git commit -m "Commit Message" ==>to commit the files
