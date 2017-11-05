@@ -72,3 +72,6 @@ git add -A ==> To add all eveerything to the staging area
 git commit -m "Commit Message"
 
 
+git diff ==> to check what are the modificaions we made
+
+
