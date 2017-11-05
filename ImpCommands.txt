@@ -75,3 +75,8 @@ git commit -m "Commit Message"
 git diff ==> to check what are the modificaions we made
 
 
+git push origin master ==> to push the repo
+
+
+
+
