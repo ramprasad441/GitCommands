@@ -69,4 +69,6 @@ git reset ==>remove everything form the staging area.
 
 git add -A ==> To add all eveerything to the staging area
 
-git commit -m "Commit Message" ==>to commit the files
+git commit -m "Commit Message"
+
+
