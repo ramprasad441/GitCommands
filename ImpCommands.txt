@@ -133,6 +133,149 @@ Then
 
 
 
+
+When we make the commit to the wrong branch, we need to commit that wrong commit 
+from a right(desired branch)
+
+
+===> git log 
+
+switch to the desired branch/featured branch
+
+==>git checkout "Branch Name(Desired Branch name from which you want to commit)"
+
+Copy the hash code of the commit(Wrong commit)
+
+==>git cherry-pick "Hash of the wrong commit"
+
+check the
+
+==>git log
+
+Since cherry-ick doesn't delete the to delete the 
+commmit (or undoing the commit) accidentally committed 
+to master branch
+
+==>git checkout master(or the branch where you accidentally made commit)
+
+==>git reset --soft "hash code of wrong commit"
+
+check the git log to ensure 
+
+==>git log
+
+
+==>git status
+
+
+
+==>git reset "hash of the initial commit"
+
+
+you can seee some files in the staging area(since we made undone the commit)
+
+==>git reset "Initial commit(Hash code)"
+
+
+==>git reset --hard "hash code(initial commit/default file)"
+
+
+to get rid of untracked files we can use 
+
+==>git clean -df
+
+where d: gets rid of Untracked directory;
+f:gets rid of untracked files
+
+The command(git clean -df) is also useeful if you 
+accdentally unzipped the zip file in the project directory
+
+
+three different types of resets we should know
+
+git reset --soft, git reset mixed, git reset --hard
+
+
+
+
+==============
+
+
+
+
+when you accidentally ran(git reset --hard) on the 
+changes you need and you need some of the changes 
+
+==>git reflog
+
+it shows the what we exactly done previously
+
+
+
+
+================
+
+if other people pulled the unwanted changes or 
+what if you really want to undo a commit but other 
+people already pulled those unwanted changes
+
+==>git revert
+
+revert creates new commits to reverse the effect 
+of some earlier commits(accidental commits) this 
+way you don't rewrite any history, just to clarify 
+it is not going modify/delete our existing commits 
+that we made, it is going to create new commits on 
+top of the those old commits, that completlely undo 
+all unwanted changes, so the history 
+remains intact
+
+example:
+
+==>git log
+
+what if if want to undo a commit 
+(wrong commit with message 
+"Wrong commit" with hash code 23XXXX)
+
+
+==>git revert "23XXXX" (wrong commit's has code)
+ 
+check 
+
+==>git log
+
+
+it shows the all the commits  including the revert commit hash code
+
+Nice trick with
+
+==>git diff "Initaial commit(hash)" "second commit"
+
+it shows the differences
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 if git rejects the push 
 
 Example==> https://github.com/username/repo ! [rejected] master -> master (fetch first)
@@ -141,6 +284,12 @@ Then
 
 git fetch origin master
 git merge origin master
+
+
+
+
+
+
 
 
 
