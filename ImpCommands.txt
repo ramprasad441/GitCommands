@@ -78,5 +78,10 @@ git diff ==> to check what are the modificaions we made
 git push origin master ==> to push the repo
 
 
+git push origin master -f
+
+
+
+
 
 
