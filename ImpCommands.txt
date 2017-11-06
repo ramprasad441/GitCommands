@@ -85,6 +85,13 @@ git push origin master -f
 git branch "Branch Name" ==> To create a new branch
 
 git checkout "Branch Name" ===>switch to particular branch new branch
+ 
+
+=====
+
+More commits to come ===>
+
+
 
 
 
