@@ -133,9 +133,14 @@ Then
 
 
 
+if git rejects the push 
 
+Example==> https://github.com/username/repo ! [rejected] master -> master (fetch first)
 
+Then
 
+git fetch origin master
+git merge origin master
 
 
 
