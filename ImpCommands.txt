@@ -96,6 +96,10 @@ More commits to come ===>
 git push -u origin "MyBranch" ==> to push the changes local changes to the remote branch
 
 
+git merge "Branch Name" ==> being on Master, to merge the branch changes 
+from a particular branch.
+
+
 
 git branch -d first_branch ==> to delete the branch locally 
 
