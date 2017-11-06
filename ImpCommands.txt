@@ -120,7 +120,16 @@ Help Page: https://help.github.com/articles/connecting-to-github-with-ssh/
 
 
 
+for modifying the commit message:
 
+example: git commit -m "Wrong commit message"
+
+
+Then
+
+==>git log
+
+==>git commit --amend -m "Right commit message"
 
 
 
