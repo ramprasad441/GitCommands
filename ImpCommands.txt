@@ -82,6 +82,8 @@ git push origin master -f
 
 
 
+git checkout "My branch Name" ===>create a new branch
+
 
 
 
