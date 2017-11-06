@@ -93,6 +93,10 @@ More commits to come ===>
 
 
 
+git push -u origin "MyBranch" ==> to push the changes local changes to the remote branch
+
+
+
 
 
 
