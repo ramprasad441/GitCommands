@@ -106,6 +106,21 @@ git branch -d first_branch ==> to delete the branch locally
 
 git push origin --delete "branch name" ==> to delete remote branch
 
+====
+
+
+git remote add origin https://github.com/username/branchname.git   ==>  To push the local project to Remote(Git)
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY ==> To Pull the project from the github to local
+
+
+
+
+
+
+
+
+
 
 
 
