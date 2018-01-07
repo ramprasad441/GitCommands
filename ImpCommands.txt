@@ -27,6 +27,11 @@ us know who commited the commit and the commit message
 
 ======
 
+git remote ==> shows origin
+
+git remote -v ==> where v is verbos, which shows the origin url of 
+the project.
+
 Viewing information about the remote repository
  
 git remote -v ==> Location of the branch
