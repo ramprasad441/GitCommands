@@ -6,6 +6,15 @@ pwd: print working directory
 
 ls: which list out the contents of the working directory or present directory
 
+
+pulling the changes from the master for the first time
+
+git remote add origin<git project URL>
+
+git pull origin master
+
+
+
 git config --list ==> to show the information regarding the partiular user 
 like email, username etc.
 
@@ -18,12 +27,33 @@ git status ==> before making a commit to check the status of the
 git add -A ==> to add all untacked/ uncommitesd/ changed files
 
 
+
+
 git reset ==> to remove the files in the staging area/ Kind of Uncommit
 
 git clone ==> to clone the remote project
 
 git log ==> for knowing the Hash number of the commit made, and also let's 
 us know who commited the commit and the commit message
+
+
+==============Merge conflicts================
+
+if your commit gets rejected from the master while pushing (since you are 
+behind the master changes or your local code doesn't have latest changes)
+and you want to include your changes
+
+git pull --rebase origin master
+
+and then do git mergetool for revolving the conflicts
+
+git mergetool ==> to show the conflict and resolve
+
+git rebase --continue
+
+and then do
+
+git push origin master
 
 ======
 
