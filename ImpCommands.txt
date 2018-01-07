@@ -6,6 +6,8 @@ pwd: print working directory
 
 ls: which list out the contents of the working directory or present directory
 
+git config --list ==> to show the information regarding the partiular user 
+like email, username etc.
 
 ls -la ==> for tracking the project
 
