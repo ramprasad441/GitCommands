@@ -2,6 +2,10 @@ git help config ==> command for help
 
 git init ==> for 
 
+pwd: print working directory
+
+ls: which list out the contents of the working directory or present directory
+
 
 ls -la ==> for tracking the project
 
