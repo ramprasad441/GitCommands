@@ -40,6 +40,8 @@ git branch -a ==>  shows all the branches in the repository
 
 git diff ==> Shows the Differences
 
+git rm --cached <file name> ==> to unstage
+
 
 ==
 
