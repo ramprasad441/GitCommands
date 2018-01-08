@@ -26,6 +26,43 @@ git status ==> before making a commit to check the status of the
 
 git add -A ==> to add all untacked/ uncommitesd/ changed files
 
+git add . ==> to Add all the files ot the staging area
+
+git commit -am "commit message" ==> this will commit all the 
+files in the presnet working copy (Caution: Use it only when you
+modify your files and don't use when you do deleting the files)
+
+git rm <file name> ==> to delete a particular file
+
+git mv <old file name> <new file name> ==> to rename a file
+
+examples: if your Red.txt is your old file and you want to 
+rename it to Green.txt then do
+
+git mv Red.txt Green.txt
+
+if you wanto move a file(example: Green.txt) to a 
+new folder(folder name:MyFolder) then 
+
+git mv Green.txt MyFolder/Green.txt
+
+git checkout -- <file name> ==> to checkout a particular file 
+from the remote repo( use it incase you are messed up a 
+particular file)
+
+git reset HEAD <file name> ==> to remove it from the staging 
+area(Example: git reset HEAD Myfile.txt)
+
+if you accientally made a messedup the code and made a commit and 
+and you want to go back to the previous commit then do
+
+git log ==> gives the list of commits with commit numbers
+
+get the commit number
+
+git checkout commit number --<file name> 
+
+example: git checkout hfkj12893903 myfile.txt
 
 
 
@@ -69,6 +106,9 @@ git remote -v ==> Location of the branch
 git branch -a ==>  shows all the branches in the repository
 
 git diff ==> Shows the Differences
+
+git diff --staged ==> shows the differences or compares the 
+files in the staging area against repository
 
 git rm --cached <file name> ==> to unstage
 
