@@ -380,7 +380,14 @@ Just want to add more information to this file
 ==========
 
 
+imagine if you have just committed a something and then realized there is a typo error
 
+
+
+git commit -a --amend -C HEAD
+
+it basically does is it all the modified changes/uncommitted changes and add them to 
+the previous commmit by keeping the same commit message
 
 
 
