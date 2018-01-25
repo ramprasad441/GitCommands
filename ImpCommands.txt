@@ -397,4 +397,5 @@ the previous commmit by keeping the same commit message
 
 
 
+Adding this line from the command line to text how it is going to appear on the git hub
 
